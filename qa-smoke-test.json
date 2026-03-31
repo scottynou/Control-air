@@ -1,0 +1,123 @@
+[
+  {
+    "page": "home",
+    "title": "Control'Air — Contrôle réglementaire des sorbonnes et équipements ventilés",
+    "header": 3682,
+    "main": 33349,
+    "footer": 3531,
+    "cookie": 712,
+    "worksGrid": 0,
+    "newsGrid": 0,
+    "error": null
+  },
+  {
+    "page": "services",
+    "title": "Prestations — Control'Air",
+    "header": 3682,
+    "main": 16446,
+    "footer": 3531,
+    "cookie": 712,
+    "worksGrid": 0,
+    "newsGrid": 0,
+    "error": null
+  },
+  {
+    "page": "regulations",
+    "title": "Réglementation — Control'Air",
+    "header": 3682,
+    "main": 9218,
+    "footer": 3531,
+    "cookie": 712,
+    "worksGrid": 0,
+    "newsGrid": 0,
+    "error": null
+  },
+  {
+    "page": "works",
+    "title": "Réalisations — Control'Air",
+    "header": 3682,
+    "main": 4487,
+    "footer": 3531,
+    "cookie": 712,
+    "worksGrid": 6857,
+    "newsGrid": 0,
+    "error": null
+  },
+  {
+    "page": "realisation",
+    "title": "Contrôle périodique de sorbonnes en laboratoire privé",
+    "header": 3682,
+    "main": 8600,
+    "footer": 3531,
+    "cookie": 712,
+    "worksGrid": 0,
+    "newsGrid": 0,
+    "error": null
+  },
+  {
+    "page": "news",
+    "title": "Actualités — Control'Air",
+    "header": 3682,
+    "main": 3206,
+    "footer": 3531,
+    "cookie": 712,
+    "worksGrid": 0,
+    "newsGrid": 5207,
+    "error": null
+  },
+  {
+    "page": "article",
+    "title": "Contrôle périodique des sorbonnes : pourquoi c’est essentiel",
+    "header": 3682,
+    "main": 6620,
+    "footer": 3531,
+    "cookie": 712,
+    "worksGrid": 0,
+    "newsGrid": 0,
+    "error": null
+  },
+  {
+    "page": "contact",
+    "title": "Contact et devis — Control'Air",
+    "header": 3682,
+    "main": 9576,
+    "footer": 3531,
+    "cookie": 712,
+    "worksGrid": 0,
+    "newsGrid": 0,
+    "error": null
+  },
+  {
+    "page": "mentions-legales",
+    "title": "Mentions, confidentialité et cookies — Control'Air",
+    "header": 3682,
+    "main": 7606,
+    "footer": 3531,
+    "cookie": 712,
+    "worksGrid": 0,
+    "newsGrid": 0,
+    "error": null
+  },
+  {
+    "page": "confidentialite",
+    "title": "Mentions, confidentialité et cookies — Control'Air",
+    "header": 3682,
+    "main": 6691,
+    "footer": 3531,
+    "cookie": 712,
+    "worksGrid": 0,
+    "newsGrid": 0,
+    "error": null
+  },
+  {
+    "page": "cookies",
+    "title": "Mentions, confidentialité et cookies — Control'Air",
+    "header": 3682,
+    "main": 5125,
+    "footer": 3531,
+    "cookie": 712,
+    "worksGrid": 0,
+    "newsGrid": 0,
+    "error": null
+  }
+]

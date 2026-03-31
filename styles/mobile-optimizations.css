@@ -1,0 +1,246 @@
+html {
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+}
+
+/* Mobile & performance-only overrides. Desktop appearance stays unchanged. */
+
+@media (max-width: 980px), (pointer: coarse) {
+  body::before,
+  body::after {
+    display: none !important;
+  }
+
+  .site-header,
+  .site-header.is-scrolled,
+  .mobile-menu__panel,
+  .cookie-banner {
+    backdrop-filter: none !important;
+    -webkit-backdrop-filter: none !important;
+  }
+
+  .marquee-band::before,
+  .marquee-band::after {
+    display: none !important;
+  }
+
+  .marquee-band__track {
+    width: auto !important;
+    max-width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0.85rem 0 1rem;
+    animation: none !important;
+    transform: none !important;
+  }
+
+  .marquee-band__track span {
+    white-space: normal;
+    text-align: center;
+    letter-spacing: 0.1em;
+  }
+
+  [data-reveal],
+  [data-reveal].is-visible {
+    opacity: 1 !important;
+    transform: none !important;
+    transition: none !important;
+    will-change: auto !important;
+  }
+
+  .process-story__intro-inner,
+  .process-story__fill,
+  .process-card__dot,
+  .process-card--journey,
+  .case-card__media img,
+  .showcase-card__media img,
+  .news-list-item img,
+  .service-hub-card img {
+    transition: none !important;
+    will-change: auto !important;
+  }
+
+  .showcase-card,
+  .case-card,
+  .service-hub-card,
+  .news-list-item,
+  .article-card,
+  .process-card--journey,
+  .why-choose__panel,
+  .contact-form-shell,
+  .home-proof__item,
+  .home-contact-band,
+  .cookie-banner {
+    box-shadow: 0 10px 28px rgba(8, 15, 29, 0.08) !important;
+  }
+
+  .button,
+  .menu-toggle,
+  .mobile-menu__close,
+  .mobile-menu__link,
+  .filter-chip,
+  .lang-switch__button {
+    min-height: 46px;
+  }
+
+  @supports (content-visibility: auto) {
+    main > section:not(:first-of-type),
+    .news-list-item,
+    .service-hub-card,
+    .case-card,
+    .article-card,
+    .service-detail-story__item,
+    .service-detail-minimal__module,
+    .home-reg-stage,
+    .home-reg-definition {
+      content-visibility: auto;
+      contain-intrinsic-size: 1px 720px;
+    }
+  }
+}
+
+@media (max-width: 720px) {
+  html {
+    font-size: 15px;
+  }
+
+  .shell {
+    width: min(1340px, calc(100% - 28px));
+  }
+
+  .section {
+    padding: clamp(3rem, 9vw, 4.2rem) 0;
+  }
+
+  .section--tight {
+    padding: 1.35rem 0;
+  }
+
+  .hero--home {
+    min-height: auto !important;
+    padding: calc(var(--site-header-height) + 4.5rem) 0 3rem !important;
+  }
+
+  .hero__grid {
+    min-height: clamp(24rem, 68svh, 34rem) !important;
+    align-items: end;
+  }
+
+  .hero__copy {
+    max-width: min(30rem, 100%) !important;
+    transform: none !important;
+  }
+
+  .hero__title--landing {
+    max-width: 9.5ch;
+    font-size: clamp(2.35rem, 10vw, 3.4rem) !important;
+  }
+
+  .hero__subtitle,
+  .hero__statement {
+    max-width: 22rem;
+    font-size: 0.98rem !important;
+    line-height: 1.58 !important;
+  }
+
+  .hero__actions,
+  .footer-cta__actions,
+  .home-contact-band__actions,
+  .contact-form__actions {
+    width: 100%;
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .hero__actions .button,
+  .footer-cta__actions .button,
+  .home-contact-band__button,
+  .contact-form__submit {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .site-header__inner {
+    gap: 0.8rem;
+  }
+
+  .brand__text small {
+    display: none;
+  }
+
+  .home-editorial__content,
+  .section-intro,
+  .contact-band-section .home-contact-band__copy,
+  .why-choose__header,
+  .home-news__header,
+  .home-works__header,
+  .service-hub__header,
+  .works-catalog-page__header,
+  .news-catalog-page__header {
+    text-wrap: pretty;
+  }
+
+  .why-choose__tabs {
+    gap: 0.7rem;
+  }
+
+  .why-choose__tab {
+    padding: 0.95rem 1rem;
+  }
+
+  .process-card--journey,
+  .service-accordion__item,
+  .showcase-card,
+  .case-card,
+  .news-list-item,
+  .service-hub-card,
+  .home-contact-band,
+  .contact-form-shell,
+  .contact-card {
+    border-radius: 22px !important;
+  }
+
+  .site-footer {
+    padding-bottom: calc(2rem + env(safe-area-inset-bottom));
+  }
+}
+
+@media (max-width: 420px) {
+  .shell {
+    width: min(1340px, calc(100% - 24px));
+  }
+
+  .hero--home {
+    padding-top: calc(var(--site-header-height) + 4rem) !important;
+  }
+
+  .hero__title--landing {
+    font-size: clamp(2.1rem, 10.5vw, 3rem) !important;
+  }
+
+  .button,
+  .mobile-menu__link,
+  .filter-chip,
+  .lang-switch__button {
+    min-height: 44px;
+  }
+}
+
+
+@media (pointer: coarse) {
+  a,
+  button,
+  input,
+  select,
+  textarea {
+    touch-action: manipulation;
+  }
+}
+
+@media (max-width: 720px) {
+  .contact-field__input,
+  .contact-field__select,
+  .contact-field__textarea {
+    font-size: 16px !important;
+  }
+}
